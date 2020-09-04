@@ -16,7 +16,7 @@ def guessNum():
                 print("Too low! Guess again.\n")
                 guessNum()
         else:
-            guess == correctNum
+            # guess = correctNum
             print("Good job, you guessed correctly!\nThe number is " + str(correctNum) + ".\n")
     except ValueError:
         print("Please guess an integer. \n")
